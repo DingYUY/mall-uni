@@ -1,0 +1,73 @@
+
+.card.data-v-4586967a {
+  width: 190px;
+  height: 254px;
+  background: #F4F6FB;
+  border: 1px solid white;
+  box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
+  -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+  -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+}
+.form.data-v-4586967a {
+  padding: 25px;
+}
+.card_header.data-v-4586967a {
+  display: flex;
+  align-items: center;
+}
+.card svg.data-v-4586967a {
+  color: #7878bd;
+  margin-bottom: 20px;
+  margin-right: 5px;
+}
+.form_heading.data-v-4586967a {
+  padding-bottom: 20px;
+  font-size: 21px;
+  color: #7878bd;
+}
+.field.data-v-4586967a {
+  padding-bottom: 10px;
+}
+.input.data-v-4586967a {
+  border-radius: 5px;
+  background-color: #e9e9f7;
+  padding: 5px;
+  width: 90%;
+  color: #7a7ab3;
+  border: 1px solid #dadaf7
+}
+.input.data-v-4586967a:focus-visible {
+  outline: 1px solid #aeaed6;
+}
+.input.data-v-4586967a::-webkit-input-placeholder {
+  color: #bcbcdf;
+}
+.input.data-v-4586967a::placeholder {
+  color: #bcbcdf;
+}
+label.data-v-4586967a {
+  color: #B2BAC8;
+  font-size: 14px;
+  display: block;
+  padding-bottom: 4px;
+}
+button.data-v-4586967a {
+  background-color: #7878bd;
+  margin-top: 10px;
+  font-size: 14px;
+  padding: 7px 12px;
+  height: auto;
+  font-weight: 500;
+  color: white;
+  width: 50%;
+}
+button.data-v-4586967a:hover {
+  background-color: #5f5f9c;
+}
+
+
+
+
+
+
+

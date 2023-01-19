@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "van_card": "/static/dist/card/index"
+  }
+}

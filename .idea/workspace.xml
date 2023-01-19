@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c211b4cf-ada3-4e2c-98ab-01bc4dbf2dd1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/action-sheet/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/action-sheet/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/action-sheet/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/action-sheet/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/action-sheet/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/area/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/area/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/area/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/area/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/area/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/area/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/button/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/button/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/button/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/button/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/button/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/button/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/calendar.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/components/header/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/components/header/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/components/header/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/components/header/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/components/header/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/components/month/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/components/month/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/components/month/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/components/month/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/components/month/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/components/month/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/calendar/utils.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/card/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/card/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/card/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/card/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/card/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cascader/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cascader/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cascader/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cascader/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cascader/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cascader/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cell-group/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cell-group/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cell-group/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cell-group/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cell-group/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cell/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cell/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cell/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cell/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cell/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/cell/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/checkbox-group/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/checkbox-group/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/checkbox-group/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/checkbox-group/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/checkbox-group/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/checkbox/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/checkbox/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/checkbox/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/checkbox/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/checkbox/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/checkbox/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/circle/canvas.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/circle/canvas.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/circle/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/circle/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/circle/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/circle/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/circle/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/col/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/col/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/col/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/col/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/col/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/col/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/collapse-item/animate.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/collapse-item/animate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/collapse-item/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/collapse-item/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/collapse-item/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/collapse-item/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/collapse-item/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/collapse/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/collapse/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/collapse/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/collapse/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/collapse/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/color.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/color.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/component.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/relation.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/relation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/style/clearfix.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/style/ellipsis.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/style/hairline.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/style/mixins/clearfix.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/style/mixins/ellipsis.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/style/mixins/hairline.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/style/var.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/validator.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/validator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/version.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/common/version.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/config-provider/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/config-provider/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/config-provider/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/config-provider/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/config-provider/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/count-down/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/count-down/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/count-down/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/count-down/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/count-down/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/count-down/utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/count-down/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/datetime-picker/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/datetime-picker/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/datetime-picker/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/datetime-picker/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/datetime-picker/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/definitions/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/definitions/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dialog/dialog.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dialog/dialog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dialog/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dialog/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dialog/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dialog/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dialog/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/divider/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/divider/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/divider/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/divider/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/divider/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/divider/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dropdown-item/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dropdown-item/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dropdown-item/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dropdown-item/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dropdown-item/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dropdown-item/shared.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dropdown-item/shared.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dropdown-menu/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dropdown-menu/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dropdown-menu/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dropdown-menu/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dropdown-menu/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/dropdown-menu/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/empty/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/empty/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/empty/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/empty/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/empty/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/empty/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/field/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/field/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/field/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/field/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/field/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/field/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/field/input.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/field/props.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/field/props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/field/textarea.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/field/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/field/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/goods-action-button/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/goods-action-button/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/goods-action-button/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/goods-action-button/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/goods-action-button/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/goods-action-icon/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/goods-action-icon/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/goods-action-icon/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/goods-action-icon/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/goods-action-icon/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/goods-action/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/goods-action/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/goods-action/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/goods-action/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/goods-action/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/grid-item/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/grid-item/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/grid-item/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/grid-item/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/grid-item/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/grid-item/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/grid/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/grid/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/grid/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/grid/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/grid/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/grid/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/icon/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/icon/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/icon/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/icon/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/icon/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/icon/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/image/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/image/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/image/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/image/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/image/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/image/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/index-anchor/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/index-anchor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/index-anchor/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/index-anchor/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/index-anchor/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/index-bar/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/index-bar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/index-bar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/index-bar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/index-bar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/info/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/info/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/info/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/info/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/info/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/loading/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/loading/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/loading/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/loading/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/loading/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/loading/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/mixins/basic.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/mixins/basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/mixins/button.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/mixins/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/mixins/link.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/mixins/link.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/mixins/page-scroll.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/mixins/page-scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/mixins/touch.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/mixins/touch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/mixins/transition.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/mixins/transition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/nav-bar/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/nav-bar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/nav-bar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/nav-bar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/nav-bar/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/nav-bar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/notice-bar/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/notice-bar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/notice-bar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/notice-bar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/notice-bar/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/notice-bar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/notify/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/notify/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/notify/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/notify/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/notify/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/notify/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/notify/notify.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/notify/notify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/overlay/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/overlay/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/overlay/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/overlay/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/overlay/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/panel/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/panel/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/panel/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/panel/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/panel/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/picker-column/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/picker-column/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/picker-column/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/picker-column/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/picker-column/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/picker-column/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/picker/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/picker/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/picker/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/picker/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/picker/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/picker/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/picker/shared.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/picker/shared.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/picker/toolbar.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/popup/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/popup/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/popup/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/popup/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/popup/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/popup/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/progress/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/progress/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/progress/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/progress/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/progress/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/progress/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/radio-group/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/radio-group/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/radio-group/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/radio-group/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/radio-group/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/radio/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/radio/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/radio/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/radio/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/radio/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/radio/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/rate/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/rate/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/rate/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/rate/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/rate/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/row/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/row/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/row/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/row/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/row/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/row/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/search/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/search/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/search/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/search/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/search/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/share-sheet/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/share-sheet/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/share-sheet/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/share-sheet/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/share-sheet/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/share-sheet/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/share-sheet/options.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/share-sheet/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/share-sheet/options.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/share-sheet/options.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/share-sheet/options.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/share-sheet/options.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/sidebar-item/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/sidebar-item/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/sidebar-item/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/sidebar-item/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/sidebar-item/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/sidebar/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/sidebar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/sidebar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/sidebar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/sidebar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/skeleton/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/skeleton/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/skeleton/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/skeleton/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/skeleton/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/slider/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/slider/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/slider/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/slider/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/slider/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/slider/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/stepper/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/stepper/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/stepper/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/stepper/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/stepper/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/stepper/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/steps/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/steps/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/steps/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/steps/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/steps/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/sticky/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/sticky/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/sticky/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/sticky/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/sticky/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/sticky/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/submit-bar/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/submit-bar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/submit-bar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/submit-bar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/submit-bar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/swipe-cell/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/swipe-cell/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/swipe-cell/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/swipe-cell/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/swipe-cell/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/switch/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/switch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/switch/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/switch/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/switch/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/switch/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tab/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tab/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tab/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tab/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tab/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tabbar-item/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tabbar-item/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tabbar-item/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tabbar-item/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tabbar-item/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tabbar/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tabbar/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tabbar/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tabbar/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tabbar/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tabs/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tabs/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tabs/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tabs/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tabs/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tabs/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tag/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tag/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tag/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tag/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tag/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tag/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/toast/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/toast/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/toast/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/toast/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/toast/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/toast/toast.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/toast/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/transition/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/transition/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/transition/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/transition/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/transition/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/transition/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tree-select/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tree-select/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tree-select/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tree-select/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tree-select/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/tree-select/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/uploader/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/uploader/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/uploader/index.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/uploader/index.wxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/uploader/index.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/uploader/index.wxss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/uploader/shared.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/uploader/shared.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/uploader/utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/uploader/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/wxs/add-unit.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/wxs/array.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/wxs/bem.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/wxs/memoize.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/wxs/object.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/wxs/style.wxs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wxcomponents/vant-weapp/dist/wxs/utils.wxs" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/wxcomponents/vant-weapp" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2KPh4cv0J6qpYCzxVmGpYnrGVvm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/接单/二手_uni/static",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\webstorm\\WebStorm 2021.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\接单\二手_uni\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\接单\二手_uni\static" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c211b4cf-ada3-4e2c-98ab-01bc4dbf2dd1" name="Changes" comment="" />
+      <created>1673881935074</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673881935074</updated>
+      <workItem from="1673881937096" duration="13538000" />
+      <workItem from="1673925322891" duration="19933000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/uni_modules/zp-mixins/index.js" />
+      </list>
+    </option>
+  </component>
+</project>

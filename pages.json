@@ -1,0 +1,94 @@
+{
+	"lazyCodeLoading":"requiredComponents",
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "用户"
+			}
+		},
+		{
+			"path": "pages/dingdan/index",
+			"style": {}
+		},
+		{
+			"path": "pages/shop_cart/index",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/shop_deailed/index",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/get_shop_jiesuan/index",
+			"style": {}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		
+	{
+		"path": "pages/register/index",
+		"style": {
+			"navigationBarTitleText": "注册"
+		}
+	},
+		{
+			"path": "custom-tab-bar/index",
+			"style": {}
+		}
+	    ,{
+            "path" : "pages/send/index",
+            "style" :
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+
+        }
+        
+    ],
+	"style": "v2",
+	"sitemapLocation": "sitemap.json",
+	"tabBar": {
+		"custom": true,
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "发现"
+			},
+			{
+				"pagePath": "pages/shop_cart/index",
+				"text": "购物车"
+			},
+			{
+				"pagePath": "pages/user/index",
+				"text": "用户"
+			},
+			{
+				"pagePath": "pages/send/index"
+			}
+		]
+	},
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "Weixin",
+		"navigationBarTextStyle": "black"
+	},
+	"subPackages": []
+}
