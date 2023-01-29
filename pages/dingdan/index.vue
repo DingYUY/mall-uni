@@ -1,6 +1,6 @@
 <template>
 	<view>
-    <view v-for="(item,index) in list" style="width: 95%;margin: 0 auto;margin-top: 10px;display: flex;  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    <view v-for="(item,index) in list" :key="index" style="width: 95%;margin: 0 auto;margin-top: 10px;display: flex;  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 ">
       <image :src="item.img[0]" style="width: 40%" mode="aspectFill"></image>
 	  <view class="pingfang"

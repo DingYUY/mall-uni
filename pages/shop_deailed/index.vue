@@ -22,7 +22,6 @@
             </view>
         </view>
 
-        <view class="pingfang" style="font-weight: 900; padding: 10px">成色</view>
 
 <!--        <view class="pingfang flex items-center">-->
 <!--            <view class="shop_card">95新</view>-->

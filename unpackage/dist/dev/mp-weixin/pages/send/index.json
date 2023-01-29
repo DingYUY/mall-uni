@@ -2,6 +2,7 @@
   "navigationBarTitleText": "",
   "enablePullDownRefresh": false,
   "usingComponents": {
+    "custom-tab-bar": "/custom-tab-bar/index",
     "van_uploader": "/static/dist/uploader/index"
   }
 }

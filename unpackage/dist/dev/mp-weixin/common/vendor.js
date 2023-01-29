@@ -11578,7 +11578,23 @@ module.exports = {
 /* 126 */,
 /* 127 */,
 /* 128 */,
-/* 129 */
+/* 129 */,
+/* 130 */,
+/* 131 */,
+/* 132 */,
+/* 133 */,
+/* 134 */,
+/* 135 */,
+/* 136 */,
+/* 137 */,
+/* 138 */,
+/* 139 */,
+/* 140 */,
+/* 141 */,
+/* 142 */,
+/* 143 */,
+/* 144 */,
+/* 145 */
 /*!**********************************************************************************!*\
   !*** C:/Users/dyy/Desktop/毕设相关/mall/mall/uni/mall_uni/static/dist/card/index.js ***!
   \**********************************************************************************/
@@ -11588,8 +11604,8 @@ module.exports = {
 "use strict";
 
 
-var _link = __webpack_require__(/*! ../mixins/link */ 130);
-var _component = __webpack_require__(/*! ../common/component */ 131);
+var _link = __webpack_require__(/*! ../mixins/link */ 146);
+var _component = __webpack_require__(/*! ../common/component */ 147);
 (0, _component.VantComponent)({
   classes: ['num-class', 'desc-class', 'thumb-class', 'title-class', 'price-class', 'origin-price-class'],
   mixins: [_link.link],
@@ -11632,7 +11648,7 @@ var _component = __webpack_require__(/*! ../common/component */ 131);
 });
 
 /***/ }),
-/* 130 */
+/* 146 */
 /*!***********************************************************************************!*\
   !*** C:/Users/dyy/Desktop/毕设相关/mall/mall/uni/mall_uni/static/dist/mixins/link.js ***!
   \***********************************************************************************/
@@ -11676,7 +11692,7 @@ exports.link = link;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/wx.js */ 1)["default"]))
 
 /***/ }),
-/* 131 */
+/* 147 */
 /*!****************************************************************************************!*\
   !*** C:/Users/dyy/Desktop/毕设相关/mall/mall/uni/mall_uni/static/dist/common/component.js ***!
   \****************************************************************************************/
@@ -11690,7 +11706,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.VantComponent = VantComponent;
-var _basic = __webpack_require__(/*! ../mixins/basic */ 132);
+var _basic = __webpack_require__(/*! ../mixins/basic */ 148);
 function mapKeys(source, target, map) {
   Object.keys(map).forEach(function (key) {
     if (source[key]) {
@@ -11737,7 +11753,7 @@ function VantComponent(vantOptions) {
 }
 
 /***/ }),
-/* 132 */
+/* 148 */
 /*!************************************************************************************!*\
   !*** C:/Users/dyy/Desktop/毕设相关/mall/mall/uni/mall_uni/static/dist/mixins/basic.js ***!
   \************************************************************************************/
@@ -11768,7 +11784,7 @@ exports.basic = basic;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/wx.js */ 1)["default"]))
 
 /***/ }),
-/* 133 */
+/* 149 */
 /*!**************************************************************************************!*\
   !*** C:/Users/dyy/Desktop/毕设相关/mall/mall/uni/mall_uni/static/dist/uploader/index.js ***!
   \**************************************************************************************/
@@ -11778,10 +11794,10 @@ exports.basic = basic;
 "use strict";
 /* WEBPACK VAR INJECTION */(function(wx) {
 
-var _component = __webpack_require__(/*! ../common/component */ 131);
-var _utils = __webpack_require__(/*! ./utils */ 134);
-var _shared = __webpack_require__(/*! ./shared */ 138);
-var _validator = __webpack_require__(/*! ../common/validator */ 136);
+var _component = __webpack_require__(/*! ../common/component */ 147);
+var _utils = __webpack_require__(/*! ./utils */ 150);
+var _shared = __webpack_require__(/*! ./shared */ 154);
+var _validator = __webpack_require__(/*! ../common/validator */ 152);
 (0, _component.VantComponent)({
   props: Object.assign(Object.assign(Object.assign(Object.assign({
     disabled: Boolean,
@@ -12007,7 +12023,7 @@ var _validator = __webpack_require__(/*! ../common/validator */ 136);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/wx.js */ 1)["default"]))
 
 /***/ }),
-/* 134 */
+/* 150 */
 /*!**************************************************************************************!*\
   !*** C:/Users/dyy/Desktop/毕设相关/mall/mall/uni/mall_uni/static/dist/uploader/utils.js ***!
   \**************************************************************************************/
@@ -12023,8 +12039,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.chooseFile = chooseFile;
 exports.isImageFile = isImageFile;
 exports.isVideoFile = isVideoFile;
-var _utils = __webpack_require__(/*! ../common/utils */ 135);
-var _validator = __webpack_require__(/*! ../common/validator */ 136);
+var _utils = __webpack_require__(/*! ../common/utils */ 151);
+var _validator = __webpack_require__(/*! ../common/validator */ 152);
 function isImageFile(item) {
   if (item.isImage != null) {
     return item.isImage;
@@ -12150,7 +12166,7 @@ function chooseFile(_ref) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/wx.js */ 1)["default"]))
 
 /***/ }),
-/* 135 */
+/* 151 */
 /*!************************************************************************************!*\
   !*** C:/Users/dyy/Desktop/毕设相关/mall/mall/uni/mall_uni/static/dist/common/utils.js ***!
   \************************************************************************************/
@@ -12185,8 +12201,8 @@ exports.pickExclude = pickExclude;
 exports.range = range;
 exports.requestAnimationFrame = requestAnimationFrame;
 exports.toPromise = toPromise;
-var _validator = __webpack_require__(/*! ./validator */ 136);
-var _version = __webpack_require__(/*! ./version */ 137);
+var _validator = __webpack_require__(/*! ./validator */ 152);
+var _version = __webpack_require__(/*! ./version */ 153);
 function range(num, min, max) {
   return Math.min(Math.max(num, min), max);
 }
@@ -12258,7 +12274,7 @@ function getCurrentPage() {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/wx.js */ 1)["default"]))
 
 /***/ }),
-/* 136 */
+/* 152 */
 /*!****************************************************************************************!*\
   !*** C:/Users/dyy/Desktop/毕设相关/mall/mall/uni/mall_uni/static/dist/common/validator.js ***!
   \****************************************************************************************/
@@ -12315,7 +12331,7 @@ function isVideoUrl(url) {
 }
 
 /***/ }),
-/* 137 */
+/* 153 */
 /*!**************************************************************************************!*\
   !*** C:/Users/dyy/Desktop/毕设相关/mall/mall/uni/mall_uni/static/dist/common/version.js ***!
   \**************************************************************************************/
@@ -12397,7 +12413,7 @@ function canIUseGetUserProfile() {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/wx.js */ 1)["default"]))
 
 /***/ }),
-/* 138 */
+/* 154 */
 /*!***************************************************************************************!*\
   !*** C:/Users/dyy/Desktop/毕设相关/mall/mall/uni/mall_uni/static/dist/uploader/shared.js ***!
   \***************************************************************************************/

@@ -10,6 +10,9 @@ export default {
         logs.unshift(Date.now());
         uni.setStorageSync('logs', logs);
 
+	// 隐藏tababr
+	uni.hideTabBar()
+
         // 登录
         uni.login({
             success: (res) => {

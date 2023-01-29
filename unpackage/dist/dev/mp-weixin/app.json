@@ -7,7 +7,9 @@
     "pages/shop_deailed/index",
     "pages/get_shop_jiesuan/index",
     "pages/login/index",
+    "pages/meGood/index",
     "pages/register/index",
+    "pages/address/index",
     "custom-tab-bar/index",
     "pages/send/index"
   ],
@@ -19,11 +21,15 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "custom": true,
+    "custom": false,
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "发现"
+      },
+      {
+        "pagePath": "pages/send/index",
+        "text": "发布"
       },
       {
         "pagePath": "pages/shop_cart/index",
@@ -32,9 +38,6 @@
       {
         "pagePath": "pages/user/index",
         "text": "用户"
-      },
-      {
-        "pagePath": "pages/send/index"
       }
     ]
   },

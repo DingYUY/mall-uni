@@ -3,7 +3,7 @@
         <view class="flex flex-col items-center" @tap="get_jump" :data-url="item" v-for="(item, index) in tabbar_list" :key="index">
             <image :src="item.icon" style="width: 19px; height: 20px"></image>
 
-            <view class="text-center text-xs" style="padding-top: 10rpx">{{ item.name }}</view>
+            <view class="text-center text-xs" style="padding-top: 10rpx" :style="select==index? 'color: #2d8cf0' : 'color: #999999'">{{ item.name }}</view>
         </view>
     </view>
 </template>
@@ -16,27 +16,41 @@ export default {
             tabbar_list: [
                 {
                     icon: '/static/images/icon/Home.png',
+										selecticon:"",
+										select:true,
                     name: '首页',
                     page_url: '../index/index'
                 },
-				{
-					icon:"/static/images/icon/send.png",
-					name:"发布",
-					page_url:"../send/index"
-				},
+								{
+									icon:"/static/images/icon/send.png",
+									selecticon:"",
+									select:false,
+									name:"发布",
+									page_url:"../send/index"
+								},
                 {
                     icon: '/static/images/icon/Group.png',
+										selecticon:"",
+										select:false,
                     name: '购物袋',
                     page_url: '../shop_cart/index'
                 },
                 {
                     icon: '/static/images/icon/username.png',
+										selecticon:"",
+										select:false,
                     name: '我的',
                     page_url: '../user/index'
                 }
             ]
         };
-    }
+    },
+		props: {
+		    select: {
+		      type: Number,
+		      default: 0
+		    }
+		  }
     /**
      * 生命周期函数--监听页面加载
      */,
@@ -79,14 +93,23 @@ export default {
     onShareAppMessage() {},
     methods: {
         get_jump(url) {
-            console.log(url.currentTarget.dataset.url);
-            uni.switchTab({
-                url: url.currentTarget.dataset.url.page_url,
-                success(res) {
-                    console.log(res);
-                }
-            });
-        }
+                   let tabbar=this.tabbar_list.map(item=>{
+                             item.select=false
+                             if(item.page_url==url.currentTarget.dataset.url.page_url){
+                                 item.select=true
+                               uni.switchTab({
+                                 url: url.currentTarget.dataset.url.page_url,
+                               });
+                             }
+                             return item
+                         })
+             
+                         this.tabbar_list=tabbar
+
+									
+												
+								
+														 }
     }
 };
 </script>
