@@ -177,6 +177,8 @@
 
 
 
+
+
 /* pages/get_shop_jiesuan/index.wxss */
 .flex{
   display: flex;

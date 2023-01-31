@@ -78,11 +78,13 @@ export default {
               this.$data.address.push(...res.data.data)
            }else {
              uni.showToast({
-               title: '请在电脑端添加地址',
+               title: '请设置默认地址',
                icon: 'none',
                duration: 2000
              });
-
+						uni.navigateTo({
+							url: '/pages/address/index'
+						})
            }
          }
        })

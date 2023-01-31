@@ -98,6 +98,41 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "recyclableRender", function() { return recyclableRender; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "components", function() { return components; });
 var components
+try {
+  components = {
+    uniPopup: function () {
+      return __webpack_require__.e(/*! import() | uni_modules/uni-popup/components/uni-popup/uni-popup */ "uni_modules/uni-popup/components/uni-popup/uni-popup").then(__webpack_require__.bind(null, /*! @/uni_modules/uni-popup/components/uni-popup/uni-popup.vue */ 168))
+    },
+    uniPopupDialog: function () {
+      return Promise.all(/*! import() | uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog.vue */ 175))
+    },
+    uniForms: function () {
+      return Promise.all(/*! import() | uni_modules/uni-forms/components/uni-forms/uni-forms */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uni-forms/components/uni-forms/uni-forms")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uni-forms/components/uni-forms/uni-forms.vue */ 187))
+    },
+    uniFormsItem: function () {
+      return Promise.all(/*! import() | uni_modules/uni-forms/components/uni-forms-item/uni-forms-item */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uni-forms/components/uni-forms-item/uni-forms-item")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uni-forms/components/uni-forms-item/uni-forms-item.vue */ 196))
+    },
+    uniEasyinput: function () {
+      return __webpack_require__.e(/*! import() | uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput */ "uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput").then(__webpack_require__.bind(null, /*! @/uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput.vue */ 203))
+    },
+  }
+} catch (e) {
+  if (
+    e.message.indexOf("Cannot find module") !== -1 &&
+    e.message.indexOf(".vue") !== -1
+  ) {
+    console.error(e.message)
+    console.error("1. 排查组件名称拼写是否正确")
+    console.error(
+      "2. 排查组件是否符合 easycom 规范，文档：https://uniapp.dcloud.net.cn/collocation/pages?id=easycom"
+    )
+    console.error(
+      "3. 若组件不符合 easycom 规范，需手动引入，并在 components 中注册该组件"
+    )
+  } else {
+    throw e
+  }
+}
 var render = function () {
   var _vm = this
   var _h = _vm.$createElement
@@ -135,12 +170,14 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {
 
-
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ 4);
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
+var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ 18));
 //
 //
 //
@@ -149,13 +186,214 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+var app = getApp();
 var _default = {
   data: function data() {
-    return {};
+    return {
+      baseurl: app.globalData.BaseUrl,
+      addressList: [],
+      formData: {
+        name: '',
+        phone: '',
+        address: ''
+      },
+      rules: {
+        name: {
+          rules: [{
+            required: true,
+            errorMessage: '请输入姓名'
+          }, {
+            minLength: 1,
+            maxLength: 10,
+            errorMessage: '姓名长度在1到10个字符'
+          }]
+        },
+        phone: {
+          rules: [{
+            required: true,
+            errorMessage: '请输入手机号'
+          }, {
+            format: 'number',
+            validateFunction: function validateFunction(rule, value, data, callback) {
+              var reg = /^1[345789]\d{9}$/;
+              if (!reg.test(value)) {
+                callback(new Error('请输入11位手机号'));
+              }
+              return true;
+            },
+            errorMessage: '请输入正确的手机号'
+          }]
+        },
+        address: {
+          rules: [{
+            required: true,
+            errorMessage: '请输入地址'
+          }, {
+            minLength: 1,
+            maxLength: 50,
+            errorMessage: '地址长度在1到50个字符'
+          }]
+        }
+      }
+    };
   },
-  methods: {}
+  onReady: function onReady() {
+    // 设置表单校验规则，必须在节点渲染完毕后执行
+    this.$refs.form.setRules(this.rules);
+  },
+  onShow: function onShow() {
+    this.getAddress();
+  },
+  methods: {
+    open: function open() {
+      this.$refs.popup.open();
+    },
+    close: function close() {
+      // TODO 做一些其他的事情，before-close 为true的情况下，手动执行 close 才会关闭对话框
+      // ...
+      this.$refs.popup.close();
+    },
+    confirm: function confirm(value) {
+      var _this = this;
+      // 输入框的值
+      console.log(value);
+      // TODO 做一些其他的事情，手动执行 close 才会关闭对话框
+      // ...
+      this.$refs.form.validate().then(function (res) {
+        console.log('formConfirm', res);
+        uni.request({
+          url: _this.$data.baseurl + 'addAddress',
+          method: 'POST',
+          data: {
+            token: uni.getStorageSync('token'),
+            name: _this.$data.formData.name,
+            phone: _this.$data.formData.phone,
+            address: _this.$data.formData.phone,
+            is_default: false
+          },
+          success: function success(res) {
+            console.log('add', res);
+            _this.getAddress();
+          },
+          fail: function fail(err) {
+            console.log(err);
+          }
+        });
+        _this.$refs.popup.close();
+      }).catch(function (err) {
+        console.log(err);
+      });
+    },
+    // 获取地址
+    getAddress: function getAddress() {
+      var that = this;
+      uni.request({
+        url: this.$data.baseurl + 'getAddress',
+        method: 'POST',
+        data: {
+          token: uni.getStorageSync('token')
+        },
+        success: function success(res) {
+          var _that$$data$addressLi;
+          console.log('getAddress', res);
+          that.$data.addressList = [];
+          (_that$$data$addressLi = that.$data.addressList).push.apply(_that$$data$addressLi, (0, _toConsumableArray2.default)(res.data.data));
+          that.$data.addressList.forEach(function (item) {
+            item.is_del = false;
+          });
+        },
+        fail: function fail(err) {
+          console.log(err);
+        }
+      });
+    },
+    // 设置默认地址
+    setDefaultAddress: function setDefaultAddress(items) {
+      var _this2 = this;
+      this.$data.addressList.forEach(function (item) {
+        if (items == item) {
+          //如果是当前点击的地址
+          item.is_default = true;
+          uni.request({
+            url: _this2.$data.baseurl + 'setDefaultAddress',
+            method: 'POST',
+            data: {
+              _id: item._id
+            },
+            success: function success() {
+              console.log('设置成功');
+            }
+          });
+        } else {
+          //如果不是当前点击的地址
+          item.is_default = false;
+        }
+      });
+    },
+    deleteAddress: function deleteAddress(item) {
+      var that = this;
+      uni.request({
+        url: this.$data.baseurl + 'delAddress',
+        method: 'POST',
+        data: {
+          id: item._id
+        },
+        success: function success() {
+          console.log('删除成功');
+          that.getAddress();
+        }
+      });
+    }
+  }
 };
 exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 2)["default"]))
 
 /***/ }),
 

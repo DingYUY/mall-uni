@@ -3584,4 +3584,12 @@
 .add-address .button {
   border-radius: 0;
 }
+.form {
+  padding: 15px;
+  background-color: #fff;
+}
+.form-item {
+  display: flex;
+  align-items: center;
+}
 

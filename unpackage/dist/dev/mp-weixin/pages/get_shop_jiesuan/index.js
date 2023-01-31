@@ -112,9 +112,12 @@ var _default = {
           (_this$$data$address = _this.$data.address).push.apply(_this$$data$address, (0, _toConsumableArray2.default)(res.data.data));
         } else {
           uni.showToast({
-            title: '请在电脑端添加地址',
+            title: '请设置默认地址',
             icon: 'none',
             duration: 2000
+          });
+          uni.navigateTo({
+            url: '/pages/address/index'
           });
         }
       }

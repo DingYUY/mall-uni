@@ -216,7 +216,7 @@ var _index = _interopRequireDefault(__webpack_require__(/*! ../../custom-tab-bar
 var app = getApp();
 var van_uploader = function van_uploader() {
   __webpack_require__.e(/*! require.ensure | static/dist/uploader/index */ "common/vendor").then((function () {
-    return resolve(__webpack_require__(/*! ../../static/dist/uploader/index */ 149));
+    return resolve(__webpack_require__(/*! ../../static/dist/uploader/index */ 210));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var _default = {
