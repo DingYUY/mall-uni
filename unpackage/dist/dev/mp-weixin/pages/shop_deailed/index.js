@@ -193,28 +193,6 @@ var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 var app = getApp();
 // pages/shop_deailed/index.js
@@ -305,10 +283,15 @@ var _default = {
         //生成一个数组包含对象 [{good_id:good_id,count:1}]
         this.$data.list[0].count = 1;
         var arr = this.$data.list.map(function (item) {
+          console.log('item', item);
           return {
-            goods_id: item.good_id,
+            good_id: item.good_id,
             count: item.count,
-            price: item.price
+            price: item.price,
+            img: item.img[0],
+            introduce: item.introduce,
+            address: item.address,
+            name: item.name
           };
         });
         uni.navigateTo({

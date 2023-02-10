@@ -10,6 +10,7 @@
     "pages/meGood/index",
     "pages/register/index",
     "pages/address/index",
+    "pages/chat/index",
     "custom-tab-bar/index",
     "pages/send/index"
   ],

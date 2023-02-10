@@ -145,7 +145,7 @@ exports.default = void 0;
 var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ 18));
 var van_card = function van_card() {
   __webpack_require__.e(/*! require.ensure | static/dist/card/index */ "common/vendor").then((function () {
-    return resolve(__webpack_require__(/*! ../../static/dist/card */ 145));
+    return resolve(__webpack_require__(/*! ../../static/dist/card */ 153));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var app = getApp();

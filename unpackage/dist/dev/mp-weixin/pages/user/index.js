@@ -130,6 +130,9 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
 // custom-tab-bar/index.js
 var _default = {
   data: function data() {

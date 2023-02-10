@@ -140,7 +140,7 @@
 							token: uni.getStorageSync('token'),
 							name: this.$data.formData.name,
 							phone: this.$data.formData.phone,
-							address: this.$data.formData.phone,
+							address: this.$data.formData.address,
 							is_default: false
 						},
 						success: (res) => {

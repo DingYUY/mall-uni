@@ -75,7 +75,6 @@ var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/
 //
 //
 //
-//
 
 // pages/get_shop_jiesuan/index.js
 var app = getApp();
@@ -96,6 +95,7 @@ var _default = {
     var _this$$data$shop_list,
       _this = this;
     (_this$$data$shop_list = this.$data.shop_list).push.apply(_this$$data$shop_list, (0, _toConsumableArray2.default)(JSON.parse(decodeURIComponent(options.arr))));
+    console.log('optionsList', this.$data.shop_list);
     this.$data.shop_list.forEach(function (item) {
       _this.$data.sum += item.price * item.count;
     });
@@ -137,7 +137,35 @@ var _default = {
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function onShow() {},
+  onShow: function onShow() {
+    // this.$data.shop_list.push(...JSON.parse(decodeURIComponent(options.arr)))
+
+    // this.$data.shop_list.forEach(item => {
+    // 	this.$data.sum += item.price * item.count
+    // })
+    // uni.request({
+    // 	url: this.$data.baseurl + 'getDefaultAddress',
+    // 	method: 'POST',
+    // 	data: {
+    // 		token: uni.getStorageSync('token')
+    // 	},
+    // 	success: (res) => {
+    // 		console.log(res.data.code)
+    // 		if (res.data.code == 1) {
+    // 			this.$data.address.push(...res.data.data)
+    // 		} else {
+    // 			uni.showToast({
+    // 				title: '请设置默认地址',
+    // 				icon: 'none',
+    // 				duration: 2000
+    // 			});
+    // 			uni.navigateTo({
+    // 				url: '/pages/address/index'
+    // 			})
+    // 		}
+    // 	}
+    // })
+  },
   /**
    * 生命周期函数--监听页面隐藏
    */
@@ -188,7 +216,7 @@ var _default = {
             //商品介绍
             goods_id: item.good_id,
             //商品id
-            custorm_address: that.$data.address[0].address + that.$data.address[0].phone,
+            custorm_address: that.$data.address[0].address + "_" + that.$data.address[0].phone,
             //客户地址
             img: item.img //商品图片
           },

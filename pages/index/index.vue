@@ -34,23 +34,28 @@
 					style="width: 400rpx; display: inline-block; margin: 10px" v-for="(item, index) in good_list"
 					:key="index">
 					<image style="width: 100%; height: 90px" mode="aspectFill" :src="item.img[0]"></image>
-							<view style="padding-left: 20rpx;">{{ item.name }}</view>
+					<view style="padding-left: 20rpx;">{{ item.name }}</view>
 					<view class="pingfang font-bold flex justify-between"
-						style="padding-left: 10px; padding-right: 10px; padding-top: 10px;    align-items: center;">
+						style="padding-left: 10px; padding-right: 10px; padding-top: 10px;align-items: center;">
 						<view class="pingfang font-bold flex justify-between"
 							style="padding-left: 10px; padding-right: 10px;">
-							<image src="/static/images/icon/Path.png" style="width: 12px; height: 15px;transform: translate(-20rpx,0px);"></image>
+							<image src="/static/images/icon/Path.png"
+								style="width: 12px; height: 15px;transform: translate(-20rpx,0px);"></image>
 						</view>
 
-					<view class="flex items-center" style="padding: 10px">
+						<view class="flex items-center" style="padding: 10px">
 							<image :src="item.user_img" style="width: 40px;height: 40px;border-radius: 40px"></image>
-							<view style="font-size: 12px;padding-left: 10px;width: 51rpx;" class="text-ellipsis">{{item.username}}</view>
+							<view style="font-size: 12px;padding-left: 10px;width: 51rpx;" class="text-ellipsis">
+								{{item.username}}</view>
 						</view>
 
 						<view style="font-size: 12px;" class="pingfang">
 							￥{{item.price}}</view>
 
 					</view>
+				</view>
+				<view v-if="good_list.length < 1" class="flex justify-center items-center h-12 text-lg" style="color: orange; background-color: #fff;">
+					暂时没有内容呀
 				</view>
 			</view>
 
@@ -91,12 +96,14 @@
 
 				</view>
 			</view>
-
+			<view v-if="good_list.length < 1" class="flex justify-center items-center h-12 text-lg" style="color: orange; background-color: #fff;">
+				暂时没有内容呀
+			</view>
 		</view>
 		<customTabBar style="position: fixed;bottom: 0px;width: 100%;" select="0"></customTabBar>
 	</view>
-	
-	
+
+
 </template>
 
 <script>
@@ -105,8 +112,8 @@
 	import customTabBar from "../../custom-tab-bar/index.vue";
 	const app = getApp();
 	export default {
-		components:{
-				customTabBar
+		components: {
+			customTabBar
 		},
 		data() {
 			return {
@@ -339,12 +346,11 @@
 		display: inline-block;
 		width: 200px;
 	}
-	
-	  /*超出文本自动省略*/
-	    .text-ellipsis {
-	        overflow: hidden;
-	        text-overflow: ellipsis;
-	        white-space: nowrap;
-	    }
 
+	/*超出文本自动省略*/
+	.text-ellipsis {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
 </style>

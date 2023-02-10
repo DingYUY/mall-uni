@@ -1,6 +1,6 @@
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["custom-tab-bar/index"],{
 
-/***/ 136:
+/***/ 144:
 /*!**************************************************************************************************!*\
   !*** C:/Users/dyy/Desktop/毕设相关/mall/mall/uni/mall_uni/main.js?{"page":"custom-tab-bar%2Findex"} ***!
   \**************************************************************************************************/
@@ -151,6 +151,9 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
 // custom-tab-bar/index.js
 var _default = {
   data: function data() {
@@ -278,5 +281,5 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ })
 
-},[[136,"common/runtime","common/vendor"]]]);
+},[[144,"common/runtime","common/vendor"]]]);
 //# sourceMappingURL=../../.sourcemap/mp-weixin/custom-tab-bar/index.js.map

@@ -130,6 +130,9 @@ exports.default = void 0;
 //
 //
 //
+//
+//
+//
 // custom-tab-bar/index.js
 var _default = {
   data: function data() {
@@ -499,6 +502,7 @@ var _default = {
           that.$data.shop_cart = [];
           that.$data.user.sum = 0;
           (_that$$data$shop_cart = that.$data.shop_cart).push.apply(_that$$data$shop_cart, (0, _toConsumableArray2.default)(res.data.data));
+          console.log('that.$data.shop_cart', that.$data.shop_cart);
           that.$data.shop_cart.forEach(function (item) {
             if (item.show) {
               that.$data.user.sum += item.price * item.count;
@@ -543,6 +547,7 @@ var _default = {
         //加密 防止 传递参数太长
         url: "../get_shop_jiesuan/index?arr=" + encodeURIComponent(JSON.stringify(this.$data.shop_cart))
       });
+      console.log('shop_cart', this.$data.shop_cart);
     },
     add: function add(index) {
       this.shop_cart[index].count++;

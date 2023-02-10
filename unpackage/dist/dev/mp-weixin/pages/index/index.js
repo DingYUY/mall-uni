@@ -102,6 +102,17 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
+  var g0 = _vm.good_list.length
+  var g1 = _vm.good_list.length
+  _vm.$mp.data = Object.assign(
+    {},
+    {
+      $root: {
+        g0: g0,
+        g1: g1,
+      },
+    }
+  )
 }
 var recyclableRender = false
 var staticRenderFns = []
@@ -144,6 +155,13 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ 18));
 var _index = _interopRequireDefault(__webpack_require__(/*! ../../custom-tab-bar/index.vue */ 55));
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -480,6 +498,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
+//
+//
+//
 //
 //
 //

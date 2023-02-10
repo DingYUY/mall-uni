@@ -14,7 +14,9 @@
 		},
 		{
 			"path": "pages/dingdan/index",
-			"style": {}
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
 		},
 		{
 			"path": "pages/shop_cart/index",
@@ -57,6 +59,12 @@
 			"path": "pages/address/index",
 			"style": {
 				"navigationBarTitleText": "地址管理"
+			}
+		},
+		{
+			"path": "pages/chat/index",
+			"style": {
+				"navigationBarTitleText": "聊天"
 			}
 		},
 		{

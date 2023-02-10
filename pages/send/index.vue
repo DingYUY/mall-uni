@@ -31,7 +31,6 @@
 				<div></div>
 			</div>
 
-
 			<view
 				style="margin-top: 10px;display: flex;width: 60%;justify-content: space-between;align-items: flex-start;flex-direction: column;">
 				<label class="label">价格</label>
@@ -41,20 +40,12 @@
 				</view>
 			</view>
 
-
-
 			<div class="input-group" style="margin-top: 20px">
-				<label class="label">地址</label>
+				<label class="label">发货地址</label>
 				<textarea name="" v-model:value="user.address" style="height: 70px;padding: 10px;" auto-height id=""
 					cols="1100" rows="40" class="input"></textarea>
 				<div></div>
 			</div>
-
-
-
-
-
-
 
 			<view
 				style="width: 60%;display: flex;justify-content: center;margin: 0 auto;margin-top: 50px;margin-bottom: 100px;">

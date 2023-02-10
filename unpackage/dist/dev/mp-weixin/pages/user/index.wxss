@@ -114,86 +114,89 @@
 
 
 
+
+
+
 /* custom-tab-bar/index.wxss */
 .flex {
-    display: flex;
+	display: flex;
 }
 .border {
-    border: 1px solid rgba(0, 0, 0, 0.3);
+	border: 1px solid rgba(0, 0, 0, 0.3);
 }
 .flex-col {
-    flex-direction: column;
+	flex-direction: column;
 }
 .text-center {
-    text-align: center;
+	text-align: center;
 }
 .p-1 {
-    padding: 0.25rem;
+	padding: 0.25rem;
 }
 .p-2 {
-    padding: 0.5rem;
+	padding: 0.5rem;
 }
 .text-xs {
-    font-size: 9px;
+	font-size: 9px;
 }
 .justify-center {
-    justify-content: center;
+	justify-content: center;
 }
 .justify-between {
-    justify-content: space-between;
+	justify-content: space-between;
 }
 .justify-end {
-    justify-content: flex-end;
+	justify-content: flex-end;
 }
 .obj-cover {
-    object-fit: cover;
+	object-fit: cover;
 }
 .obj-contain {
-    object-fit: contain;
+	object-fit: contain;
 }
 .w-full {
-    width: 100%;
+	width: 100%;
 }
 .items-center {
-    align-items: center;
+	align-items: center;
 }
 .item-end {
-    align-items: flex-end;
+	align-items: flex-end;
 }
 .pingfang {
-    font-family: PingFang;
+	font-family: PingFang;
 }
 .rounded-xl {
-    border-radius: 0.5rem;
+	border-radius: 0.5rem;
 }
 .rounded-full {
-    border-radius: 99%;
+	border-radius: 99%;
 }
 .border-b-2 {
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
 }
 .mx-auto {
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 .shadow-xl {
-    box-shadow: 1px 9px 50px -12px rgba(0, 0, 0, 0.25);
+	box-shadow: 1px 9px 50px -12px rgba(0, 0, 0, 0.25);
 }
 .font-blod {
-    font-weight: bold;
+	font-weight: bold;
 }
 .text-white {
-    color: white;
+	color: white;
 }
 .absolute {
-    position: absolute;
+	position: absolute;
 }
 .fixed {
-    position: fixed;
+	position: fixed;
 }
 .bottom-0 {
-    bottom: 0px;
+	bottom: 0px;
 }
 
 

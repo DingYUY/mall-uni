@@ -38,4 +38,7 @@ export default {
     padding: 200rpx 0;
     box-sizing: border-box;
 }
+page{
+	height: 100%;
+}
 </style>

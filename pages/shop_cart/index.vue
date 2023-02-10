@@ -48,8 +48,8 @@
 	// pages/shop_cart/index.js
 	import customTabBar from "../../custom-tab-bar/index.vue";
 	export default {
-		components:{
-				customTabBar
+		components: {
+			customTabBar
 		},
 		data() {
 			return {
@@ -66,7 +66,7 @@
 		 */
 		,
 		onLoad(options) {
-	
+
 
 
 
@@ -90,29 +90,30 @@
 		onShow() {
 			let token = uni.getStorageSync('token') || false
 			if (token) {
-				this.$data.list=JSON.parse(uni.getStorageSync('cart')) || []
-			let that = this
-			uni.request({
-				url: this.$data.baseurl + 'getShopCart',
-				method: 'POST',
-				data: {
-					goods: this.$data.list
-				},
-				success: (res) => {
-					that.$data.shop_cart=[]
-					that.$data.user.sum=0
-					that.$data.shop_cart.push(...res.data.data)
-			
-					that.$data.shop_cart.forEach(item => {
-						if (item.show) {
-							that.$data.user.sum += item.price * item.count
-						} else {
-			
-						}
-					})
-			
-				}
-			})
+				this.$data.list = JSON.parse(uni.getStorageSync('cart')) || []
+				let that = this
+				uni.request({
+					url: this.$data.baseurl + 'getShopCart',
+					method: 'POST',
+					data: {
+						goods: this.$data.list
+					},
+					success: (res) => {
+						that.$data.shop_cart = []
+						that.$data.user.sum = 0
+						that.$data.shop_cart.push(...res.data.data)
+						console.log('that.$data.shop_cart', that.$data.shop_cart)
+
+						that.$data.shop_cart.forEach(item => {
+							if (item.show) {
+								that.$data.user.sum += item.price * item.count
+							} else {
+
+							}
+						})
+
+					}
+				})
 
 			} else { //没有token
 				console.log('没有token')
@@ -120,14 +121,14 @@
 					url: "/pages/login/index"
 				})
 			}
-			
-			
+
+
 		},
 		/**
 		 * 生命周期函数--监听页面隐藏
 		 */
 		onHide() {
-			let that=this
+			let that = this
 			console.log('隐藏了')
 		},
 		/**
@@ -153,36 +154,37 @@
 					url: `../get_shop_jiesuan/index?arr=` + encodeURIComponent(JSON.stringify(this.$data
 						.shop_cart))
 				});
+				console.log('shop_cart', this.$data.shop_cart)
 			},
 			add(index) {
 				this.shop_cart[index].count++
-			    let arr=JSON.parse(uni.getStorageSync('cart'))
-			        arr[index].count++
-			        uni.setStorageSync('cart',JSON.stringify(arr))
-			        this.user.sum+=this.shop_cart[index].price
+				let arr = JSON.parse(uni.getStorageSync('cart'))
+				arr[index].count++
+				uni.setStorageSync('cart', JSON.stringify(arr))
+				this.user.sum += this.shop_cart[index].price
 
 			},
-			sub(item,index) {
+			sub(item, index) {
 				console.log(item)
 				if (this.list[index].count > 1) {
-					          this.shop_cart[index].count--
-										this.$data.list[index].count--
-										let arr=JSON.parse(uni.getStorageSync('cart'))
-												arr[index].count--
-												uni.setStorageSync('cart',JSON.stringify(arr))
-															this.user.sum-=this.shop_cart[index].price
-				}else{
-										let good_id=item.good_id
-										this.$data.user.sum-=item.price
-										this.shop_cart.splice(index,1)
-				            let arr= JSON.parse(uni.getStorageSync('cart'))
-				            arr.forEach((item,i)=> {
-				              if (item.id == good_id) {
-				                arr.splice(i, 1)
-				              }
-				            })
-				   
-				          uni.setStorageSync('cart',JSON.stringify(arr))
+					this.shop_cart[index].count--
+					this.$data.list[index].count--
+					let arr = JSON.parse(uni.getStorageSync('cart'))
+					arr[index].count--
+					uni.setStorageSync('cart', JSON.stringify(arr))
+					this.user.sum -= this.shop_cart[index].price
+				} else {
+					let good_id = item.good_id
+					this.$data.user.sum -= item.price
+					this.shop_cart.splice(index, 1)
+					let arr = JSON.parse(uni.getStorageSync('cart'))
+					arr.forEach((item, i) => {
+						if (item.id == good_id) {
+							arr.splice(i, 1)
+						}
+					})
+
+					uni.setStorageSync('cart', JSON.stringify(arr))
 				}
 			}
 		}

@@ -102,6 +102,24 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
+  var l0 = _vm.__map(_vm.list, function (item, index) {
+    var $orig = _vm.__get_orig(item)
+    var g0 = item.custorm_address.split("_")
+    var g1 = item.custorm_address.split("_")
+    return {
+      $orig: $orig,
+      g0: g0,
+      g1: g1,
+    }
+  })
+  _vm.$mp.data = Object.assign(
+    {},
+    {
+      $root: {
+        l0: l0,
+      },
+    }
+  )
 }
 var recyclableRender = false
 var staticRenderFns = []
@@ -145,7 +163,7 @@ exports.default = void 0;
 var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/toConsumableArray */ 18));
 var van_card = function van_card() {
   __webpack_require__.e(/*! require.ensure | static/dist/card/index */ "common/vendor").then((function () {
-    return resolve(__webpack_require__(/*! ../../static/dist/card */ 145));
+    return resolve(__webpack_require__(/*! ../../static/dist/card */ 153));
   }).bind(null, __webpack_require__)).catch(__webpack_require__.oe);
 };
 var app = getApp();
@@ -182,6 +200,12 @@ var _default = {
             });
           }
         }
+      });
+    },
+    go_chat: function go_chat(orderMessage) {
+      uni.setStorageSync('orderMessage', JSON.stringify(orderMessage));
+      uni.navigateTo({
+        url: '/pages/chat/index'
       });
     }
   },
