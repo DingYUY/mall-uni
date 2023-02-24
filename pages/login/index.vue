@@ -9,17 +9,17 @@
     </div>
     <view class="" style="display: flex;flex-direction: column;justify-content: center;align-items: center">
       <div class="field">
-        <label for="username">Username</label>
+        <label for="username">用户名</label>
         <input id="username" v-model:value="user.username" placeholder="Username" type="text" name="username" class="input">
       </div>
       <div class="field">
-        <label for="password">Password</label>
+        <label for="password">密码</label>
         <input id="password" placeholder="Password" v-model:value="user.user_password" type="password" name="user_password" class="input">
       </div>
     </view>
     <div class="field" style="display: flex;flex-direction: column">
-      <button class="button" @click="login">Login</button>
-      <button class="button" @click="register">register</button>
+      <button class="button" @click="login">登录</button>
+      <button class="button" @click="register">注册</button>
     </div>
   </form>
 </template>
@@ -49,20 +49,29 @@ export default {
           password: that.$data.user.user_password
         },
         success(res){
-          console.log(res.data)
+          console.log(res.data.data)
           if(res.data.code==1){
-            uni.showToast({
-              title: '登录成功',
-              icon: 'success',
-              duration: 2000
-            });
-            uni.setStorageSync('user_img', res.data.data.img_head);
-            uni.setStorageSync('token', res.data.data.password);
-            uni.setStorageSync('id', res.data.data._id)
-            uni.setStorageSync('username', res.data.data.name)
-            uni.switchTab({
-              url: '/pages/index/index'
-            })
+            if(res.data.data.isBan === false) {
+							uni.showToast({
+							  title: '登录成功',
+							  icon: 'success',
+							  duration: 2000
+							});
+							uni.setStorageSync('user_img', res.data.data.img_head);
+							uni.setStorageSync('token', res.data.data.password);
+							uni.setStorageSync('id', res.data.data._id)
+							uni.setStorageSync('username', res.data.data.name)
+							uni.setStorageSync('isManager', res.data.data.isManager)
+							uni.switchTab({
+							  url: '/pages/index/index'
+							})
+						} else {
+							uni.showToast({
+								title: '该账户已被封禁',
+								icon: 'error',
+								duration:2000
+							})
+						}
           }else {
             uni.showToast({
               title: '登录失败',

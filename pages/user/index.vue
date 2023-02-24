@@ -54,6 +54,10 @@
 		<view @click="logout"
 			style="margin-bottom: 0px;border-radius: 9px;width: 20%;background: #007aff;height: 40px;color: white;text-align: center;margin-top: 20px"
 			class="pingfang flex justify-center items-center mx-auto ">登出</view>
+			
+		<view class="pingfang flex justify-center items-center mx-auto text-xs" style="padding-top: 20rpx;">
+			如有问题可联系管理员电话15651863050
+		</view>
 
 		<view style="height: 100px"></view>
 		<customTabBar style="position: fixed;bottom: 0px;width: 100%;" select="3"></customTabBar>
@@ -71,7 +75,7 @@
 		data() {
 			return {
 				user: {
-					head_img: '',
+					head_img: wx.getStorageSync('user_img'),
 					username: uni.getStorageSync('username') || '未登录',
 					baseurl: app.globalData.BaseUrl,
 					good_length: 0
@@ -83,19 +87,19 @@
 		 */
 		,
 		onLoad(options) {
-			uni.loadFontFace({
-				family: 'PingFang',
-				source: 'url("https://636c-cloud1-1g1p0gb13cd58cde-1316153423.tcb.qcloud.la/%E8%8B%B9%E6%96%B9-%E7%AE%80.ttf?sign=0737c1b101f64545d231a285fcc1b796&t=1672448538")',
-				success() {
-					console.log('字体下载成功');
-				}
-			});
+			// uni.loadFontFace({
+			// 	family: 'PingFang',
+			// 	source: 'url("https://636c-cloud1-1g1p0gb13cd58cde-1316153423.tcb.qcloud.la/%E8%8B%B9%E6%96%B9-%E7%AE%80.ttf?sign=0737c1b101f64545d231a285fcc1b796&t=1672448538")',
+			// 	success() {
+			// 		console.log('字体下载成功');
+			// 	}
+			// });
 		},
 
 		mounted() {
 			let that = this
 			uni.request({
-				url: 'http://127.0.0.1:3175/getMyGoods',
+				url: this.$data.baseurl + 'getMyGoods',
 				method: "POST",
 				data: {
 					user_id: uni.getStorageSync('id')
@@ -120,7 +124,29 @@
 			let token = uni.getStorageSync('token') || false
 			if (token) {
 				console.log('有token')
-				this.login()
+			let that = this;
+			uni.request({
+				url: this.$data.baseurl + 'getUserHead',
+				method: 'POST',
+				data: {
+					_id: uni.getStorageSync('id')
+				},
+				success(res) {
+					console.log(res)
+					if (res.data.code == 1) {
+						console.log(res)
+						uni.setStorageSync('user_img', res.data.data.img_head);
+						uni.setStorageSync('token', res.data.data.password);
+						uni.setStorageSync('id', res.data.data._id)
+						uni.setStorageSync('username', res.data.data.name)
+						that.user.head_img=res.data.data.img_head
+					} else {
+			
+					}
+				}
+			})
+			
+			
 			} else { //没有token
 				console.log('没有token')
 				uni.navigateTo({
@@ -187,18 +213,20 @@
 			login() {
 				let that = this;
 				uni.request({
-					url: 'http://127.0.0.1:3175/' + 'getUserHead',
+					url: this.$data.baseurl + 'getUserHead',
 					method: 'POST',
 					data: {
 						_id: uni.getStorageSync('id')
 					},
 					success(res) {
+						console.log(res)
 						if (res.data.code == 1) {
+							console.log(res)
 							uni.setStorageSync('user_img', res.data.data.img_head);
 							uni.setStorageSync('token', res.data.data.password);
 							uni.setStorageSync('id', res.data.data._id)
 							uni.setStorageSync('username', res.data.data.name)
-							that.$data.user.head_img = uni.getStorageSync('user_img', res.data.data.img_head);
+							that.$data.user.head_img = res.data.data.img_head
 						} else {
 
 						}

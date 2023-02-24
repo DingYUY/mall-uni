@@ -127,6 +127,7 @@
 			connect() {
 				let that = this
 				this.$data.ws = uni.connectSocket({
+					// url: 'ws://124.222.246.206:3000',
 					url: 'ws://127.0.0.1:3000',
 					complete: () => {}
 				});

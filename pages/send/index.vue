@@ -220,7 +220,7 @@
 				})
 				//  提交商品
 				uni.request({
-					url: this.$data.baseurl + 'addGoods', //仅为示例，并非真实接口地址。
+					url: this.$data.baseurl + 'addGoods', 
 					method: "POST",
 					data: {
 						name: this.$data.user.shop_name,
@@ -244,11 +244,13 @@
 										 url: '/pages/index/index'
 										})
 									}, 1500)
+									this.$data.user.shop_name = ''
+									this.$data.user.shop_introduce = ''
+									this.$data.user.address = ''
+									this.$data.sum = 1
+									img = []
 								}
 							});
-
-
-
 						}
 					}
 				})
@@ -258,18 +260,15 @@
 		},
 	
 		onLoad() {
-
-
-			uni.loadFontFace({
-				family: 'PingFang',
-				source: 'url("https://636c-cloud1-1g1p0gb13cd58cde-1316153423.tcb.qcloud.la/%E8%8B%B9%E6%96%B9-%E7%AE%80.ttf?sign=0737c1b101f64545d231a285fcc1b796&t=1672448538")',
-				success() {
-					console.log('字体下载成功');
-				}
-			});
+			// uni.loadFontFace({
+			// 	family: 'Pacifico',
+			// 	source: 'url("https://sungd.github.io/Pacifico.ttf")',
+			// 	success() {
+			// 		console.log('字体下载成功');
+			// 	}
+			// });
 		},
 		onShow() {
-
 			let token = uni.getStorageSync('token') || false
 			if (token) {
 

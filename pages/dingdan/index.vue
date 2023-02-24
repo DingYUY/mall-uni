@@ -7,8 +7,10 @@
 				style="width: 60%;display: flex;flex-direction: column;justify-content:space-between;padding: 10px;">
 				<view class="" style="padding: 10px;">
 					<view class="">{{item.goods_name}}</view>
-					<view class="" style="padding-top: 20px;font-size: 12px;">客户地址:{{item.custorm_address.split('_')[0]}}</view>
-					<view class="" style="padding-top: 20px;font-size: 12px;">客户电话:{{item.custorm_address.split('_')[1]}}</view>
+					<view class="" style="padding-top: 20px;font-size: 12px;">
+						客户地址:{{item.custorm_address.split('_')[0]}}</view>
+					<view class="" style="padding-top: 20px;font-size: 12px;">
+						客户电话:{{item.custorm_address.split('_')[1]}}</view>
 					<view class="" v-if="item.status==2" style="font-size: 12px;margin-top: 20px;">订单状态:<span
 							style="color: dimgray;">订单完成</span></view>
 					<view class="" v-if="item.status==3" style="font-size: 12px;margin-top: 20px;">订单状态:<span
@@ -21,12 +23,16 @@
 				</view>
 
 				<view style="display: flex;">
-					<button v-if="item.user_id === id" @click="go_chat(item)" class="button" style="vertical-align:middle;height: 20px;"><span>联系商家</span></button>
-					<button v-if="item.shop_id === id" @click="go_chat(item)" class="button" style="vertical-align:middle;height: 20px;"><span>联系买家</span></button>
-					<button class="button" @click="editOrder(item._id,1,index)" v-if="item.status==0 && item.shop_id === id"
+					<button v-if="item.user_id === id" @click="go_chat(item)" class="button"
+						style="vertical-align:middle;height: 20px;"><span>联系商家</span></button>
+					<button v-if="item.shop_id === id" @click="go_chat(item)" class="button"
+						style="vertical-align:middle;height: 20px;"><span>联系买家</span></button>
+					<button class="button" @click="editOrder(item._id,1,index)"
+						v-if="item.status==0 && item.shop_id === id"
 						style="vertical-align:middle;height: 20px;"><span>发货</span></button>
 					<button class="button" @click="editOrder(item._id,2,index)" :disabled="id!=item.user_id"
-						v-if="item.status==1 && item.user_id === id" style="vertical-align:middle;height: 20px;"><span>收货</span></button>
+						v-if="item.status==1 && item.user_id === id"
+						style="vertical-align:middle;height: 20px;"><span>收货</span></button>
 					<button class="button" v-if="item.status==2"
 						style="vertical-align:middle;height: 20px;"><span>订单完成</span></button>
 				</view>
@@ -89,13 +95,13 @@
 		// 挂载
 		mounted() {
 
-			uni.loadFontFace({
-				family: 'PingFang',
-				source: 'url("https://636c-cloud1-1g1p0gb13cd58cde-1316153423.tcb.qcloud.la/%E8%8B%B9%E6%96%B9-%E7%AE%80.ttf?sign=0737c1b101f64545d231a285fcc1b796&t=1672448538")',
-				success() {
-					console.log('字体下载成功');
-				}
-			});
+			// uni.loadFontFace({
+			// 	family: 'PingFang',
+			// 	source: 'url("https://636c-cloud1-1g1p0gb13cd58cde-1316153423.tcb.qcloud.la/%E8%8B%B9%E6%96%B9-%E7%AE%80.ttf?sign=0737c1b101f64545d231a285fcc1b796&t=1672448538")',
+			// 	success() {
+			// 		console.log('字体下载成功');
+			// 	}
+			// });
 
 			let that = this
 			uni.request({

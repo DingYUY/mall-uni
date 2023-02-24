@@ -66,17 +66,13 @@
 		 */
 		,
 		onLoad(options) {
-
-
-
-
-			uni.loadFontFace({
-				family: 'PingFang',
-				source: 'url("https://636c-cloud1-1g1p0gb13cd58cde-1316153423.tcb.qcloud.la/%E8%8B%B9%E6%96%B9-%E7%AE%80.ttf?sign=0737c1b101f64545d231a285fcc1b796&t=1672448538")',
-				success() {
-					console.log('字体下载成功');
-				}
-			});
+			// uni.loadFontFace({
+			// 	family: 'PingFang',
+			// 	source: 'url("https://636c-cloud1-1g1p0gb13cd58cde-1316153423.tcb.qcloud.la/%E8%8B%B9%E6%96%B9-%E7%AE%80.ttf?sign=0737c1b101f64545d231a285fcc1b796&t=1672448538")',
+			// 	success() {
+			// 		console.log('字体下载成功');
+			// 	}
+			// });
 		},
 		/**
 		 * 生命周期函数--监听页面初次渲染完成

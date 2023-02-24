@@ -48,7 +48,7 @@
 			};
 		},
 		props: {
-		 select: {
+			select: {
 				type: Number,
 				default: 0
 			}
@@ -108,10 +108,6 @@
 				})
 
 				this.tabbar_list = tabbar
-
-
-
-
 			}
 		}
 	};

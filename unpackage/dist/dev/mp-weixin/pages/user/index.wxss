@@ -113,10 +113,6 @@
 
 
 
-
-
-
-
 /* custom-tab-bar/index.wxss */
 .flex {
 	display: flex;
@@ -198,6 +194,34 @@
 .bottom-0 {
 	bottom: 0px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

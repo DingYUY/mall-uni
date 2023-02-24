@@ -23,6 +23,7 @@ export default {
     globalData: {
         userInfo: null,
 				BaseUrl:"http://127.0.0.1:3175/"
+				// BaseUrl:"http://124.222.246.206:3175/"
     },
 	
 };
